@@ -14,10 +14,11 @@ function hide() {
 		var grid2 = document.getElementById("game2");
 		var grid3 = document.getElementById("game3");
 		var grid4 = document.getElementById("game4");
-		grid1.style.visibility = "hidden";
-		grid2.style.visibility = "hidden";
-		grid3.style.visibility = "hidden";
-		grid4.style.visibility = "hidden";
+		grid1.style.display = "none";
+		grid2.style.display = "none";
+		grid3.style.display = "none";
+		grid4.style.display = "none";
+		cont1.style.display="none";
 }
 
 function unhide() {
@@ -25,10 +26,12 @@ function unhide() {
 		var grid2 = document.getElementById("game2");
 		var grid3 = document.getElementById("game3");
 		var grid4 = document.getElementById("game4");
-		grid1.style.visibility = "visible";
-		grid2.style.visibility = "visible";
-		grid3.style.visibility = "visible";
-		grid4.style.visibility = "visible";
+		grid1.style.display = "block";
+		grid2.style.display = "block";
+		grid3.style.display = "block";
+		grid4.style.display = "block";
+		cont1.style.display="block";
+
 }
 
 
