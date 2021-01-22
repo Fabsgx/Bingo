@@ -9,6 +9,11 @@ h1 {
 
 }
 
+
+@-ms-viewport{
+  width: device-width;
+}
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
