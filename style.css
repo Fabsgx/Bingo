@@ -4,9 +4,9 @@ body {
 	font-family: arial, sans-serif;
 }
 
-h1 {
-    text-align:center;	font-size: 100px;
 
+.nomargin {
+margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
 }
 
 
@@ -68,20 +68,16 @@ h1 {
 
 
 
-.container1 {
+.container {
    padding: 4px 6px;
     width: 375px;
 }
 
-.container2 {
-   padding: 4px 6px;
-    width: 375px;
-}
 #game1 ,#game2, #game3,#game4  {
     width: 375px;
     height: 150px;
     border: 1px solid #dadada;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
     margin-bottom: 20px;
 
