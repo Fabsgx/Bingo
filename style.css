@@ -14,6 +14,8 @@ margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
   width: device-width;
 }
 
+
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -56,31 +58,26 @@ margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
 {
 	font-size: 40px;
 }
-.small
+.small2
 {
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .row {
   margin-left:-5px;
   margin-right:-5px;
 }
-
-
-
 .container {
-   padding: 4px 6px;
-    width: 375px;
+	 text-align:center;
+
 }
 
 #game1 ,#game2, #game3,#game4  {
-    width: 375px;
-    height: 150px;
+	width: 377px;
+	height: 150px;
     border: 1px solid #dadada;
-    margin: 0 ;
     padding: 0;
-    margin-bottom: 20px;
-
+		margin-left: 20%;
 }
 
 #game1   > li ,#game2  > li , #game3  > li ,#game4  > li {
@@ -100,4 +97,5 @@ margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 			font-size: 30px;
+
 }
