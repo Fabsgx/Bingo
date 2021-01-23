@@ -103,7 +103,7 @@ function update() {
 	i=i+1;
 	cleanup(1);
 	cleanup(2);
-	unhide()
+	unhide();
 
 	init();
 }
@@ -111,7 +111,9 @@ function update() {
 function restart() {
 	i=0;
 	random = shuffle(numbers);
-	unhide()
+	unhide();
+	cleanup(1);
+	cleanup(2);
 	init();
 }
 
